@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    padding: 65px;
+}
+header img{
+    width: 95px;
+    margin-left: 15px;
+}
+header{
+    /* */
+    border-radius: 15px;
+}
+@media (max-width: 767px) {
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+    header{
+        /* */
+  
+        border-radius: 0;
+        margin: 0;
+    }
+    
+  }
+  @media (max-width: 1180px) {
+    .container {
+      width: 100%;
+      padding: 0;
+    }
+    header{
+        /* */
+  
+        border-radius: 15px;
+        margin: 0;
+    }
+  }
+.contacts{
+    width: 75%;
+    margin: auto;
+    gap: 45px;
+    padding: 55px;
+}
+.imgsocmed img{
+    width: 85px;
+}
+.socmed{
+    display: flex;
+    flex-wrap: wrap;
+    gap:165px;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .socmed{
+        display: flex;
+        flex-wrap: wrap;
+        gap:55px;
+
+        justify-content: center;
+        text-align: center;
+    }
+    
+  }
+.socmed a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.socmed a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: azure;
+    border-radius: 5px;
+}
+
